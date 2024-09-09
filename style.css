@@ -1,0 +1,420 @@
+#header{
+    background-color: #34495e;
+    color:  white;
+    width: 100%;
+    
+}
+#logo {
+    padding: 10px;
+}
+#logo a{
+    text-decoration: none;
+    color: white;
+   
+}
+.click-here{
+    padding: 10px;
+    width: 20%;
+    margin: 20px 40px;
+    border: none;
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+   
+}
+.click-here a{
+    text-decoration: none;
+    font-size: 18px;
+    
+}
+
+#menu{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#menu li{
+    display: inline-block;
+    
+}
+#menu li a{
+    color: white;
+    padding:20px 20px;
+    display:block;
+    font-size: 20px;
+    margin-right:15px;
+    transition: 0.5; 
+    text-decoration:none; 
+} 
+
+#menu li:hover {
+  
+    line-height: 1px solid #4343c0;
+    text-decoration: underline;
+    
+}
+
+.hero-text{
+    text-align: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 100px;
+    font-size: 50px;
+    margin-right: 100px;
+    padding: 10px ;
+}
+.img-hero img{
+    border-radius: 60px;
+    padding: 10px;
+}
+h3  .select option {
+    margin-left: 20px;
+
+}
+.select-text label{
+    margin-left: 50px;
+    padding-top: 20px;
+    font-size: 30px;
+    
+}
+select{
+    margin-left: 50px;
+    font-size: 20px;
+
+}
+/* !!... services styling...!! */
+.heading-services{
+    text-align: center;
+    padding: 20px;
+   
+
+}
+hr{
+    width: 50px;
+    border: 1px solid black;
+}
+.para-services p {
+    text-align: center;
+}
+#box-services{
+    background-color: #d7e0e0;
+    border-radius: 20px;
+    padding: 5px;
+}
+.fa-house{
+    font-size: 30px;
+
+}
+.fa-envelope-open-text{
+    font-size: 30px;
+
+}
+.fa-phone-volume{
+    font-size: 30px;
+
+}
+.fa-utensils{
+    font-size: 30px;
+
+}
+/* .... This styling is for popular destination */
+#destination-head{
+    text-align: center;
+    padding: 30px;
+}
+/* .carousel-item img{
+    border-radius: 20px;
+    padding: 20px;
+    height: 500px;
+}
+#carouselExampleControls{
+    grid: inherit;
+} */
+ /* CSS for Testimonials Section */
+ .testimonials {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px auto;
+    max-width: 800px;
+}
+.testimonial {
+    text-align: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 30%;
+}
+.testimonial img {
+    width: 80px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.testimonial h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.testimonial p{
+    font-size: 16px;
+    line-height: 1.5;
+}
+.testimonial-head{
+    
+    text-align: center;
+    margin-top: 100px;
+
+}
+/* special discount styling */
+.special-head{
+    text-align: center;
+}
+.special-text p{
+    text-align: center;
+    margin-top: 20px;
+}
+.discount-img img{
+    width: 100%;
+    border-radius:30px ;
+    transition: 0.5s;
+    
+}
+.discount-img img:hover{
+    background:#5d5dfe;
+    
+    transform: translateY(-10px);
+}
+.Itly{
+    margin-left: 10px;
+}
+.tour-list li {
+    list-style-type: circle;   
+}
+.tour-button{
+    padding: 10px;
+    width: 20%;
+    border: none;
+    border-radius: 20px;
+    background-color:#273c75;
+    color: white;
+
+}
+.contact-us-now{
+    background-color: #273c75;
+    color: white;
+    padding: 10px;
+    width: 100%;
+}
+
+
+.btn-secondary{
+    padding: 6px;
+    width:  10%;
+    border: 1px solid white;
+    border-radius: 20px;
+    background-color: #273c75;
+    color: white;
+    margin-left: 46%;
+}
+.btn-secondary:hover{
+    color: black;
+    background-color: white;
+}
+.best-head{
+    padding: 10px;
+    text-align: center;
+}
+.best-para{
+    text-align: center;
+
+}
+.font-awesome-icons i{
+    padding: 5px;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: #273c75;
+}
+.last-footer-para{
+    text-align: center;
+    margin-top: 20px;
+}
+.footer-list-all{
+    list-style: none;
+    margin-top: 30px;
+}
+/* This styling is for services */
+.our-services{
+    padding: 10px;
+    text-align: center;
+    font-style: italic;
+    font-size: 50px;
+    margin-top: 35px;
+}
+.paragraph-services{
+    text-align: center;
+    padding: 10px;
+}
+.services-all-images img{
+    width: 100%;
+    border-radius: 20px;
+
+}
+.heading-services{
+    padding: 5px;
+    margin-right: 25px;
+    /* margin: 0; */
+}
+.paragrph-servic{
+    
+    margin-left: 10px;
+}
+.icns{
+    font-size: 35px;
+    padding: 10px;
+}
+/* about us styling */
+.imeg-of-about img{
+    width: 100%;
+    margin-top: 60px;
+    border-radius: 30px;
+
+}
+/* this is team styling */
+.team{
+    text-align: center;
+    font-style: italic;
+    margin-top: 100px;
+}
+.peee{
+    text-align: center;
+    padding: 10px;
+}
+.team-person1 img{
+    width: 100%;
+    margin-top: 100px;
+    border-radius: 30px;
+
+}
+
+ /* CSS for Contact Form */
+ .contact-form {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+
+  .contact-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+
+  .contact-form input[type="text"],
+  .contact-form input[type="email"],
+  .contact-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+  }
+
+  .contact-form textarea {
+    height: 100px;
+  }
+
+  .contact-form input[type="Send Message"] {
+    background-color: #273c75;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    border: none;
+    width: 50%;
+  
+    border-radius: 30px;
+    cursor: pointer;
+  }
+
+ 
+.ICONS i{
+    padding: 20px;
+    font-size:40px;
+    cursor: pointer;
+   
+    
+}
+.contact-info{
+    padding: 10px;
+}
+.contact-info p{
+    padding: 15px;
+    margin-top: 15px;
+    
+}
+.fa-xmark{
+    display: none;
+}
+.fa-bars{
+    display: none;
+
+}
+
+
+/* .............small-screeen.................. */
+@media only screen and (max-width:600px){
+    .fa-xmark{
+        display: block;
+        font-size: 25px;
+    }
+    .fa-bars{
+        display: block;
+        font-size: 25px;
+
+    }
+    #menu ul{
+        background: #ff004f;
+        position: fixed;
+        top: 0;
+        right: -200px;
+        width: 200px;
+        height: 100vh;
+        padding-top:50px;
+        z-index: 2;
+        transition: right 0.5s;
+    }
+    #menuul li{
+        display: block;
+        margin: 25px;
+
+    }
+    #menu ul .fa-xmark{
+        position: absolute;
+        top: 25px;
+        left: 25px;
+        cursor: pointer;
+    }
+    #menu ul.fa-bars{
+        position: absolute;
+        top: 25px;
+        left: 25px;
+        cursor: pointer;
+     }
+
+
+}
+
+
+
+
+
+
+
+
+
+
